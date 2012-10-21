@@ -97,6 +97,8 @@
     if (self.attachmentImageView.image) {
 #warning to-do
         DLog(@"[%@ %@ %d] image ", NSStringFromClass([self class]), NSStringFromSelector(_cmd), __LINE__);
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"🎉 Congratulation 🎉" message:@"Demo Completed!" delegate:nil cancelButtonTitle:@"See You~" otherButtonTitles:nil];
+        [alert show];
     } else {
         NSDictionary *parameters = [NSDictionary dictionaryWithObjectsAndKeys:@"text", @"type", self.shareTextView.text, @"body", nil];
         [[TumblrHelper sharedHelper] callTumblrBlogAPIWithMethod:@"POST" path:@"/post" parameters:parameters baseHostname:self.blogInfo.name success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {

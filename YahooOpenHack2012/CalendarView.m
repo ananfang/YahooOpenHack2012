@@ -150,9 +150,9 @@
 
 #pragma mark - Target-Action
 - (IBAction)pressedChangeMonth:(UIButton *)sender {
-    if ([sender.titleLabel.text isEqualToString:@"<"]) {
+    if (sender.frame.origin.x < 160) {
         [self monthOffset:-1];
-    } else if ([sender.titleLabel.text isEqualToString:@">"]) {
+    } else {
         [self monthOffset:1];
     }
 }
