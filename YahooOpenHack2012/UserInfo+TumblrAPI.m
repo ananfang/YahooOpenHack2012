@@ -65,4 +65,15 @@
     
     return [userInfos lastObject];
 }
+
++ (void)deleteUserInfoWithName:(NSString *)name
+{
+    UserInfo *userInfo = [self userInfoWithName:name];
+    
+    UIManagedDocument *document = [[DatabaseHelper sharedHelper] managedDocument];
+    [document.managedObjectContext deleteObject:userInfo];
+    
+    [document saveToURL:document.fileURL forSaveOperation:UIDocumentSaveForOverwriting completionHandler:^(BOOL success) {
+    }];
+}
 @end

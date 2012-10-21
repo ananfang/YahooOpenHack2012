@@ -11,4 +11,5 @@
 @interface UserInfo (TumblrAPI)
 + (UserInfo *)createWithName:(NSString *)name withInfo:(NSDictionary *)info;
 + (UserInfo *)userInfoWithName:(NSString *)name;
++ (void)deleteUserInfoWithName:(NSString *)name;
 @end

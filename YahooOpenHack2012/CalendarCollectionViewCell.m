@@ -32,6 +32,7 @@
         } else if ([post.type isEqualToString:@"text"]) {
             self.imageDayLabel.textColor = [UIColor lightGrayColor];
             self.defaultDayLabel.text = [self.dummyTexts objectAtIndex:(arc4random() % self.dummyTexts.count)];
+            self.defaultDayLabel.textColor = [UIColor colorWithWhite:78.0/255.0 alpha:1.0];
         }
     }
 }
@@ -43,6 +44,7 @@
     self.imageDayLabel.hidden = YES;
     if (day) {
         self.defaultDayLabel.hidden = NO;
+        self.defaultDayLabel.textColor = [UIColor lightGrayColor];
         self.defaultDayLabel.text = self.imageDayLabel.text = [NSString stringWithFormat:@"%i", day];
     } else {
         self.defaultDayLabel.hidden = YES;

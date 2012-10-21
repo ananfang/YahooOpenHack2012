@@ -9,6 +9,8 @@
 #import "TumblrHelper.h"
 
 #import "GTMOAuthViewControllerTouch.h"
+#import "SystemPreference.h"
+#import "UserInfo+TumblrAPI.h"
 
 #define TumblrHelper_AUTH_SERVICE_PROVIDER @"Tumblr Service"
 #define TumblrHelper_APP_SERVICE_NAME @"Yahoo Open Hack: Tumblr Service"
@@ -97,8 +99,23 @@ static TumblrHelper *_sharedHelper = nil;
 - (void)logoutTumblrService
 {
     [GTMOAuthViewControllerTouch removeParamsFromKeychainForName:TumblrHelper_APP_SERVICE_NAME];
+    
+    [UserInfo deleteUserInfoWithName:[SystemPreference objectForType:PreferenceType_UserName]];
+    
+    [SystemPreference setValue:nil forType:PreferenceType_UserName];
+    [SystemPreference setValue:nil forType:PreferenceType_BlogName];
+    
     self.tumblrAuth = nil;
     self.didAuth = NO;
+    
+    NSHTTPCookie *cookie;
+    NSHTTPCookieStorage *storage = [NSHTTPCookieStorage sharedHTTPCookieStorage];
+    for (cookie in [storage cookies]) {
+        [storage deleteCookie:cookie];
+    }
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    
+    [self.delegate tumblrHelper:self didAuth:self.didAuth];
 }
 
 #pragma mark - Private Methods
