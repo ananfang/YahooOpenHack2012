@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="12C60" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Post" representedClassName="Post" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="photo_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="post_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="belongTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="TumblrBlogInfo" inverseName="hasPosts" inverseEntity="TumblrBlogInfo" syncable="YES"/>
+    </entity>
+    <entity name="TumblrBlogInfo" representedClassName="TumblrBlogInfo" syncable="YES">
+        <attribute name="blog_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="followers" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="posts" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="belongTo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="UserInfo" inverseName="blogs" inverseEntity="UserInfo" syncable="YES"/>
+        <relationship name="hasPosts" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Post" inverseName="belongTo" inverseEntity="Post" syncable="YES"/>
+    </entity>
+    <entity name="UserInfo" representedClassName="UserInfo" syncable="YES">
+        <attribute name="following" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="blogs" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="TumblrBlogInfo" inverseName="belongTo" inverseEntity="TumblrBlogInfo" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="UserInfo" positionX="-207" positionY="126" width="128" height="88"/>
+        <element name="TumblrBlogInfo" positionX="-20" positionY="144" width="128" height="163"/>
+        <element name="Post" positionX="160" positionY="192" width="128" height="133"/>
+    </elements>
+</model>

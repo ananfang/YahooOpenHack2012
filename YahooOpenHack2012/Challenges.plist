@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Fun Experiment</key><dict><key>days</key><integer>6</integer><key>challenges</key><array><dict><key>challenge</key><string>Finger Faces</string><key>flickr</key><string>Fingerface</string></dict><dict><key>challenge</key><string>Forced Perspective</string><key>flickr</key><string>Forcedperspective</string></dict><dict><key>challenge</key><string>A Bug's Eye View</string><key>flickr</key><string>lowangle</string></dict><dict><key>challenge</key><string>Dear Photograph</string><key>flickr</key><string>Dearphotograph</string></dict><dict><key>challenge</key><string>Upside Down</string><key>flickr</key><string>Upsidedown</string></dict><dict><key>challenge</key><string>Selective Color</string><key>flickr</key><string>Selectivecolor</string></dict></array></dict>
+    <key>Nature Beauty</key><dict><key>days</key><integer>7</integer></dict>
+    <key>People</key><dict><key>days</key><integer>5</integer></dict>
+</dict>
+</plist>

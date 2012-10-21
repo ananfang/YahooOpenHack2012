@@ -18,6 +18,73 @@
 		04217773163266A300AF7482 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04217772163266A300AF7482 /* Default-568h@2x.png */; };
 		04217776163266A300AF7482 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04217774163266A300AF7482 /* MainStoryboard.storyboard */; };
 		04217779163266A300AF7482 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04217778163266A300AF7482 /* ViewController.m */; };
+		042177861632691F00AF7482 /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 042177851632691F00AF7482 /* GTMHTTPFetcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0421778B1632693700AF7482 /* GTMOAuthAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 042177881632693700AF7482 /* GTMOAuthAuthentication.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0421778C1632693700AF7482 /* GTMOAuthSignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 0421778A1632693700AF7482 /* GTMOAuthSignIn.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		042177901632694200AF7482 /* GTMOAuthViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0421778E1632694200AF7482 /* GTMOAuthViewControllerTouch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		042177911632694200AF7482 /* GTMOAuthViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0421778F1632694200AF7482 /* GTMOAuthViewTouch.xib */; };
+		042177931632695500AF7482 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042177921632695500AF7482 /* Security.framework */; };
+		042177951632695C00AF7482 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042177941632695C00AF7482 /* SystemConfiguration.framework */; };
+		042177971632696300AF7482 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042177961632696300AF7482 /* MobileCoreServices.framework */; };
+		042177AC163269CA00AF7482 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0421779A163269CA00AF7482 /* AFHTTPClient.m */; };
+		042177AD163269CA00AF7482 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0421779C163269CA00AF7482 /* AFHTTPRequestOperation.m */; };
+		042177AE163269CA00AF7482 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0421779E163269CA00AF7482 /* AFImageRequestOperation.m */; };
+		042177AF163269CA00AF7482 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 042177A0163269CA00AF7482 /* AFJSONRequestOperation.m */; };
+		042177B0163269CA00AF7482 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 042177A2163269CA00AF7482 /* AFNetworkActivityIndicatorManager.m */; };
+		042177B1163269CA00AF7482 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 042177A5163269CA00AF7482 /* AFPropertyListRequestOperation.m */; };
+		042177B2163269CA00AF7482 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 042177A7163269CA00AF7482 /* AFURLConnectionOperation.m */; };
+		042177B3163269CA00AF7482 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 042177A9163269CA00AF7482 /* AFXMLRequestOperation.m */; };
+		042177B4163269CA00AF7482 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 042177AB163269CA00AF7482 /* UIImageView+AFNetworking.m */; };
+		042177B816326A2600AF7482 /* TumblrHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 042177B716326A2600AF7482 /* TumblrHelper.m */; };
+		042177BB163279A400AF7482 /* TumblrLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042177BA163279A400AF7482 /* TumblrLoginViewController.m */; };
+		042177BE16327A0400AF7482 /* TumblrInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 042177BD16327A0400AF7482 /* TumblrInfoView.m */; };
+		042177C116327A5000AF7482 /* TumblrInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042177C016327A5000AF7482 /* TumblrInfoView.xib */; };
+		042177C416327FE600AF7482 /* TumblrHelper+API.m in Sources */ = {isa = PBXBuildFile; fileRef = 042177C316327FE600AF7482 /* TumblrHelper+API.m */; };
+		042177D91632921600AF7482 /* YahooOpenHack2012.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 042177D71632921600AF7482 /* YahooOpenHack2012.xcdatamodeld */; };
+		042177DC1632925400AF7482 /* DatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 042177DB1632925400AF7482 /* DatabaseHelper.m */; };
+		042177E51632969100AF7482 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042177E41632969100AF7482 /* CoreData.framework */; };
+		042177FD163297AF00AF7482 /* TumblrBlogInfo+TumblrAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 042177FC163297AF00AF7482 /* TumblrBlogInfo+TumblrAPI.m */; };
+		04217800163297CB00AF7482 /* UserInfo+TumblrAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 042177FF163297CB00AF7482 /* UserInfo+TumblrAPI.m */; };
+		042178041632A01200AF7482 /* SystemPreference.m in Sources */ = {isa = PBXBuildFile; fileRef = 042178031632A01200AF7482 /* SystemPreference.m */; };
+		042178221632BD9700AF7482 /* TumblrBlogInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 042178211632BD9700AF7482 /* TumblrBlogInfo.m */; };
+		042178251632BD9800AF7482 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 042178241632BD9800AF7482 /* Post.m */; };
+		042178281632BD9B00AF7482 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 042178271632BD9A00AF7482 /* UserInfo.m */; };
+		0421782B1632BDC800AF7482 /* Post+TumblrAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0421782A1632BDC700AF7482 /* Post+TumblrAPI.m */; };
+		045153F11632DC9300C5650E /* CalendarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 045153E71632DC9300C5650E /* CalendarModel.m */; };
+		045153F21632DC9300C5650E /* CalendarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 045153E91632DC9300C5650E /* CalendarCollectionViewCell.m */; };
+		045153F31632DC9300C5650E /* CalendarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045153EA1632DC9300C5650E /* CalendarCollectionViewCell.xib */; };
+		045153F41632DC9300C5650E /* CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 045153EC1632DC9300C5650E /* CalendarView.m */; };
+		045153F51632DC9300C5650E /* CalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045153ED1632DC9300C5650E /* CalendarView.xib */; };
+		045153FE1632FB1000C5650E /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045153FD1632FB1000C5650E /* ShareViewController.m */; };
+		0451541116330CAD00C5650E /* CameraHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0451541016330CAD00C5650E /* CameraHelper.m */; };
+		04F4A18816334058007E0AB6 /* Challenges.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A18716334058007E0AB6 /* Challenges.plist */; };
+		04F4A18C163344E5007E0AB6 /* ChallengePackageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4A18B163344E5007E0AB6 /* ChallengePackageViewController.m */; };
+		04F4A1901633476C007E0AB6 /* ChallengePackageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4A18F1633476C007E0AB6 /* ChallengePackageCell.m */; };
+		04F4A19216334781007E0AB6 /* ChallengePackageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A19116334781007E0AB6 /* ChallengePackageCell.xib */; };
+		04F4A19616335191007E0AB6 /* ChallengeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4A19516335190007E0AB6 /* ChallengeViewController.m */; };
+		04F4A19D16335311007E0AB6 /* Fun Experiment.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A19716335311007E0AB6 /* Fun Experiment.jpg */; };
+		04F4A19E16335311007E0AB6 /* Fun Experiment@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A19816335311007E0AB6 /* Fun Experiment@2x.jpg */; };
+		04F4A19F16335311007E0AB6 /* Nature Beauty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A19916335311007E0AB6 /* Nature Beauty.jpg */; };
+		04F4A1A016335311007E0AB6 /* Nature Beauty@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A19A16335311007E0AB6 /* Nature Beauty@2x.jpg */; };
+		04F4A1A116335311007E0AB6 /* People.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A19B16335311007E0AB6 /* People.jpg */; };
+		04F4A1A216335311007E0AB6 /* People@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A19C16335311007E0AB6 /* People@2x.jpg */; };
+		04F4A1AB16335D24007E0AB6 /* InspirationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4A1AA16335D24007E0AB6 /* InspirationViewController.m */; };
+		04F4A1AE1633701C007E0AB6 /* Attached frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A1AC1633701C007E0AB6 /* Attached frame.png */; };
+		04F4A1AF1633701C007E0AB6 /* Attached frame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A1AD1633701C007E0AB6 /* Attached frame@2x.png */; };
+		04F4A1B61633717B007E0AB6 /* g10952.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A1B01633717B007E0AB6 /* g10952.png */; };
+		04F4A1B71633717B007E0AB6 /* g10952@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A1B11633717B007E0AB6 /* g10952@2x.png */; };
+		04F4A1B81633717B007E0AB6 /* g10962.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A1B21633717B007E0AB6 /* g10962.png */; };
+		04F4A1B91633717B007E0AB6 /* g10962@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A1B31633717B007E0AB6 /* g10962@2x.png */; };
+		04F4A1BA1633717B007E0AB6 /* g10966.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A1B41633717B007E0AB6 /* g10966.png */; };
+		04F4A1BB1633717B007E0AB6 /* g10966@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A1B51633717B007E0AB6 /* g10966@2x.png */; };
+		04F4A1BE163371CA007E0AB6 /* g10970.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A1BC163371CA007E0AB6 /* g10970.png */; };
+		04F4A1BF163371CA007E0AB6 /* g10970@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A1BD163371CA007E0AB6 /* g10970@2x.png */; };
+		04F4A1C21633720F007E0AB6 /* g10939.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A1C01633720F007E0AB6 /* g10939.png */; };
+		04F4A1C31633720F007E0AB6 /* g10939@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A1C11633720F007E0AB6 /* g10939@2x.png */; };
+		04F4A1C6163375A0007E0AB6 /* DSC02193.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A1C4163375A0007E0AB6 /* DSC02193.jpeg */; };
+		04F4A1C7163375A0007E0AB6 /* DSC02193@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A1C5163375A0007E0AB6 /* DSC02193@2x.jpeg */; };
+		04F4A1CE16337897007E0AB6 /* mainCover.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A1CC16337896007E0AB6 /* mainCover.png */; };
+		04F4A1CF16337897007E0AB6 /* mainCover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F4A1CD16337896007E0AB6 /* mainCover@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +104,108 @@
 		04217775163266A300AF7482 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		04217777163266A300AF7482 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		04217778163266A300AF7482 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		042177841632691F00AF7482 /* GTMHTTPFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcher.h; sourceTree = "<group>"; };
+		042177851632691F00AF7482 /* GTMHTTPFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcher.m; sourceTree = "<group>"; };
+		042177871632693700AF7482 /* GTMOAuthAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuthAuthentication.h; sourceTree = "<group>"; };
+		042177881632693700AF7482 /* GTMOAuthAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuthAuthentication.m; sourceTree = "<group>"; };
+		042177891632693700AF7482 /* GTMOAuthSignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuthSignIn.h; sourceTree = "<group>"; };
+		0421778A1632693700AF7482 /* GTMOAuthSignIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuthSignIn.m; sourceTree = "<group>"; };
+		0421778D1632694200AF7482 /* GTMOAuthViewControllerTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuthViewControllerTouch.h; sourceTree = "<group>"; };
+		0421778E1632694200AF7482 /* GTMOAuthViewControllerTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuthViewControllerTouch.m; sourceTree = "<group>"; };
+		0421778F1632694200AF7482 /* GTMOAuthViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMOAuthViewTouch.xib; sourceTree = "<group>"; };
+		042177921632695500AF7482 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		042177941632695C00AF7482 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		042177961632696300AF7482 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		04217799163269CA00AF7482 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		0421779A163269CA00AF7482 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		0421779B163269CA00AF7482 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		0421779C163269CA00AF7482 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		0421779D163269CA00AF7482 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		0421779E163269CA00AF7482 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		0421779F163269CA00AF7482 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		042177A0163269CA00AF7482 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		042177A1163269CA00AF7482 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		042177A2163269CA00AF7482 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		042177A3163269CA00AF7482 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		042177A4163269CA00AF7482 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		042177A5163269CA00AF7482 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		042177A6163269CA00AF7482 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		042177A7163269CA00AF7482 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		042177A8163269CA00AF7482 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		042177A9163269CA00AF7482 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		042177AA163269CA00AF7482 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		042177AB163269CA00AF7482 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		042177B616326A2600AF7482 /* TumblrHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TumblrHelper.h; sourceTree = "<group>"; };
+		042177B716326A2600AF7482 /* TumblrHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TumblrHelper.m; sourceTree = "<group>"; };
+		042177B9163279A400AF7482 /* TumblrLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TumblrLoginViewController.h; sourceTree = "<group>"; };
+		042177BA163279A400AF7482 /* TumblrLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TumblrLoginViewController.m; sourceTree = "<group>"; };
+		042177BC16327A0400AF7482 /* TumblrInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TumblrInfoView.h; sourceTree = "<group>"; };
+		042177BD16327A0400AF7482 /* TumblrInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TumblrInfoView.m; sourceTree = "<group>"; };
+		042177C016327A5000AF7482 /* TumblrInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TumblrInfoView.xib; sourceTree = "<group>"; };
+		042177C216327FE600AF7482 /* TumblrHelper+API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TumblrHelper+API.h"; sourceTree = "<group>"; };
+		042177C316327FE600AF7482 /* TumblrHelper+API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TumblrHelper+API.m"; sourceTree = "<group>"; };
+		042177D81632921600AF7482 /* YahooOpenHack2012.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YahooOpenHack2012.xcdatamodel; sourceTree = "<group>"; };
+		042177DA1632925400AF7482 /* DatabaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseHelper.h; sourceTree = "<group>"; };
+		042177DB1632925400AF7482 /* DatabaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseHelper.m; sourceTree = "<group>"; };
+		042177E41632969100AF7482 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		042177FB163297AF00AF7482 /* TumblrBlogInfo+TumblrAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TumblrBlogInfo+TumblrAPI.h"; sourceTree = "<group>"; };
+		042177FC163297AF00AF7482 /* TumblrBlogInfo+TumblrAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TumblrBlogInfo+TumblrAPI.m"; sourceTree = "<group>"; };
+		042177FE163297CB00AF7482 /* UserInfo+TumblrAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UserInfo+TumblrAPI.h"; sourceTree = "<group>"; };
+		042177FF163297CB00AF7482 /* UserInfo+TumblrAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UserInfo+TumblrAPI.m"; sourceTree = "<group>"; };
+		042178021632A01200AF7482 /* SystemPreference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemPreference.h; sourceTree = "<group>"; };
+		042178031632A01200AF7482 /* SystemPreference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemPreference.m; sourceTree = "<group>"; };
+		042178201632BD9600AF7482 /* TumblrBlogInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TumblrBlogInfo.h; sourceTree = "<group>"; };
+		042178211632BD9700AF7482 /* TumblrBlogInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TumblrBlogInfo.m; sourceTree = "<group>"; };
+		042178231632BD9700AF7482 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		042178241632BD9800AF7482 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		042178261632BD9900AF7482 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		042178271632BD9A00AF7482 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		042178291632BDC600AF7482 /* Post+TumblrAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Post+TumblrAPI.h"; sourceTree = "<group>"; };
+		0421782A1632BDC700AF7482 /* Post+TumblrAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Post+TumblrAPI.m"; sourceTree = "<group>"; };
+		045153E61632DC9300C5650E /* CalendarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarModel.h; sourceTree = "<group>"; };
+		045153E71632DC9300C5650E /* CalendarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarModel.m; sourceTree = "<group>"; };
+		045153E81632DC9300C5650E /* CalendarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarCollectionViewCell.h; sourceTree = "<group>"; };
+		045153E91632DC9300C5650E /* CalendarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarCollectionViewCell.m; sourceTree = "<group>"; };
+		045153EA1632DC9300C5650E /* CalendarCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarCollectionViewCell.xib; sourceTree = "<group>"; };
+		045153EB1632DC9300C5650E /* CalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarView.h; sourceTree = "<group>"; };
+		045153EC1632DC9300C5650E /* CalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarView.m; sourceTree = "<group>"; };
+		045153ED1632DC9300C5650E /* CalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarView.xib; sourceTree = "<group>"; };
+		045153FC1632FB1000C5650E /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		045153FD1632FB1000C5650E /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		0451540F16330CAD00C5650E /* CameraHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraHelper.h; sourceTree = "<group>"; };
+		0451541016330CAD00C5650E /* CameraHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraHelper.m; sourceTree = "<group>"; };
+		04F4A18716334058007E0AB6 /* Challenges.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Challenges.plist; sourceTree = "<group>"; };
+		04F4A18A163344E5007E0AB6 /* ChallengePackageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengePackageViewController.h; sourceTree = "<group>"; };
+		04F4A18B163344E5007E0AB6 /* ChallengePackageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengePackageViewController.m; sourceTree = "<group>"; };
+		04F4A18E1633476C007E0AB6 /* ChallengePackageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengePackageCell.h; sourceTree = "<group>"; };
+		04F4A18F1633476C007E0AB6 /* ChallengePackageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengePackageCell.m; sourceTree = "<group>"; };
+		04F4A19116334781007E0AB6 /* ChallengePackageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChallengePackageCell.xib; sourceTree = "<group>"; };
+		04F4A19416335190007E0AB6 /* ChallengeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengeViewController.h; sourceTree = "<group>"; };
+		04F4A19516335190007E0AB6 /* ChallengeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeViewController.m; sourceTree = "<group>"; };
+		04F4A19716335311007E0AB6 /* Fun Experiment.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fun Experiment.jpg"; sourceTree = "<group>"; };
+		04F4A19816335311007E0AB6 /* Fun Experiment@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fun Experiment@2x.jpg"; sourceTree = "<group>"; };
+		04F4A19916335311007E0AB6 /* Nature Beauty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nature Beauty.jpg"; sourceTree = "<group>"; };
+		04F4A19A16335311007E0AB6 /* Nature Beauty@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nature Beauty@2x.jpg"; sourceTree = "<group>"; };
+		04F4A19B16335311007E0AB6 /* People.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = People.jpg; sourceTree = "<group>"; };
+		04F4A19C16335311007E0AB6 /* People@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "People@2x.jpg"; sourceTree = "<group>"; };
+		04F4A1A916335D24007E0AB6 /* InspirationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspirationViewController.h; sourceTree = "<group>"; };
+		04F4A1AA16335D24007E0AB6 /* InspirationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspirationViewController.m; sourceTree = "<group>"; };
+		04F4A1AC1633701C007E0AB6 /* Attached frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Attached frame.png"; sourceTree = "<group>"; };
+		04F4A1AD1633701C007E0AB6 /* Attached frame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Attached frame@2x.png"; sourceTree = "<group>"; };
+		04F4A1B01633717B007E0AB6 /* g10952.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = g10952.png; sourceTree = "<group>"; };
+		04F4A1B11633717B007E0AB6 /* g10952@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "g10952@2x.png"; sourceTree = "<group>"; };
+		04F4A1B21633717B007E0AB6 /* g10962.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = g10962.png; sourceTree = "<group>"; };
+		04F4A1B31633717B007E0AB6 /* g10962@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "g10962@2x.png"; sourceTree = "<group>"; };
+		04F4A1B41633717B007E0AB6 /* g10966.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = g10966.png; sourceTree = "<group>"; };
+		04F4A1B51633717B007E0AB6 /* g10966@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "g10966@2x.png"; sourceTree = "<group>"; };
+		04F4A1BC163371CA007E0AB6 /* g10970.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = g10970.png; sourceTree = "<group>"; };
+		04F4A1BD163371CA007E0AB6 /* g10970@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "g10970@2x.png"; sourceTree = "<group>"; };
+		04F4A1C01633720F007E0AB6 /* g10939.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = g10939.png; sourceTree = "<group>"; };
+		04F4A1C11633720F007E0AB6 /* g10939@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "g10939@2x.png"; sourceTree = "<group>"; };
+		04F4A1C4163375A0007E0AB6 /* DSC02193.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC02193.jpeg; sourceTree = "<group>"; };
+		04F4A1C5163375A0007E0AB6 /* DSC02193@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DSC02193@2x.jpeg"; sourceTree = "<group>"; };
+		04F4A1CC16337896007E0AB6 /* mainCover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainCover.png; sourceTree = "<group>"; };
+		04F4A1CD16337896007E0AB6 /* mainCover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mainCover@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +213,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042177E51632969100AF7482 /* CoreData.framework in Frameworks */,
+				042177971632696300AF7482 /* MobileCoreServices.framework in Frameworks */,
+				042177951632695C00AF7482 /* SystemConfiguration.framework in Frameworks */,
+				042177931632695500AF7482 /* Security.framework in Frameworks */,
 				0421775D163266A300AF7482 /* UIKit.framework in Frameworks */,
 				0421775F163266A300AF7482 /* Foundation.framework in Frameworks */,
 				04217761163266A300AF7482 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +246,10 @@
 		0421775B163266A300AF7482 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				042177E41632969100AF7482 /* CoreData.framework */,
+				042177961632696300AF7482 /* MobileCoreServices.framework */,
+				042177941632695C00AF7482 /* SystemConfiguration.framework */,
+				042177921632695500AF7482 /* Security.framework */,
 				0421775C163266A300AF7482 /* UIKit.framework */,
 				0421775E163266A300AF7482 /* Foundation.framework */,
 				04217760163266A300AF7482 /* CoreGraphics.framework */,
@@ -83,6 +260,17 @@
 		04217762163266A300AF7482 /* YahooOpenHack2012 */ = {
 			isa = PBXGroup;
 			children = (
+				04F4A19316334F2F007E0AB6 /* Assets */,
+				04F4A189163344C5007E0AB6 /* Challenge */,
+				04F4A18616334043007E0AB6 /* Data */,
+				0451540E16330C5600C5650E /* Camera */,
+				045153FB1632FACE00C5650E /* Share */,
+				0421782C1632CA8E00AF7482 /* Calendar */,
+				042177CC163291C500AF7482 /* Database */,
+				0421780116329FF600AF7482 /* SystemPreference */,
+				042177B5163269FF00AF7482 /* Tumblr */,
+				04217798163269BB00AF7482 /* AFNetworking */,
+				042177831632690C00AF7482 /* gtm-oauth */,
 				0421776B163266A300AF7482 /* AppDelegate.h */,
 				0421776C163266A300AF7482 /* AppDelegate.m */,
 				04217774163266A300AF7482 /* MainStoryboard.storyboard */,
@@ -105,6 +293,205 @@
 				04217772163266A300AF7482 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		042177831632690C00AF7482 /* gtm-oauth */ = {
+			isa = PBXGroup;
+			children = (
+				042177841632691F00AF7482 /* GTMHTTPFetcher.h */,
+				042177851632691F00AF7482 /* GTMHTTPFetcher.m */,
+				042177871632693700AF7482 /* GTMOAuthAuthentication.h */,
+				042177881632693700AF7482 /* GTMOAuthAuthentication.m */,
+				042177891632693700AF7482 /* GTMOAuthSignIn.h */,
+				0421778A1632693700AF7482 /* GTMOAuthSignIn.m */,
+				0421778D1632694200AF7482 /* GTMOAuthViewControllerTouch.h */,
+				0421778E1632694200AF7482 /* GTMOAuthViewControllerTouch.m */,
+				0421778F1632694200AF7482 /* GTMOAuthViewTouch.xib */,
+			);
+			name = "gtm-oauth";
+			sourceTree = "<group>";
+		};
+		04217798163269BB00AF7482 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				04217799163269CA00AF7482 /* AFHTTPClient.h */,
+				0421779A163269CA00AF7482 /* AFHTTPClient.m */,
+				0421779B163269CA00AF7482 /* AFHTTPRequestOperation.h */,
+				0421779C163269CA00AF7482 /* AFHTTPRequestOperation.m */,
+				0421779D163269CA00AF7482 /* AFImageRequestOperation.h */,
+				0421779E163269CA00AF7482 /* AFImageRequestOperation.m */,
+				0421779F163269CA00AF7482 /* AFJSONRequestOperation.h */,
+				042177A0163269CA00AF7482 /* AFJSONRequestOperation.m */,
+				042177A1163269CA00AF7482 /* AFNetworkActivityIndicatorManager.h */,
+				042177A2163269CA00AF7482 /* AFNetworkActivityIndicatorManager.m */,
+				042177A3163269CA00AF7482 /* AFNetworking.h */,
+				042177A4163269CA00AF7482 /* AFPropertyListRequestOperation.h */,
+				042177A5163269CA00AF7482 /* AFPropertyListRequestOperation.m */,
+				042177A6163269CA00AF7482 /* AFURLConnectionOperation.h */,
+				042177A7163269CA00AF7482 /* AFURLConnectionOperation.m */,
+				042177A8163269CA00AF7482 /* AFXMLRequestOperation.h */,
+				042177A9163269CA00AF7482 /* AFXMLRequestOperation.m */,
+				042177AA163269CA00AF7482 /* UIImageView+AFNetworking.h */,
+				042177AB163269CA00AF7482 /* UIImageView+AFNetworking.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+		042177B5163269FF00AF7482 /* Tumblr */ = {
+			isa = PBXGroup;
+			children = (
+				042177B616326A2600AF7482 /* TumblrHelper.h */,
+				042177B716326A2600AF7482 /* TumblrHelper.m */,
+				042177C216327FE600AF7482 /* TumblrHelper+API.h */,
+				042177C316327FE600AF7482 /* TumblrHelper+API.m */,
+				042177BF16327A0B00AF7482 /* components */,
+				042177B9163279A400AF7482 /* TumblrLoginViewController.h */,
+				042177BA163279A400AF7482 /* TumblrLoginViewController.m */,
+			);
+			name = Tumblr;
+			sourceTree = "<group>";
+		};
+		042177BF16327A0B00AF7482 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				042177BC16327A0400AF7482 /* TumblrInfoView.h */,
+				042177BD16327A0400AF7482 /* TumblrInfoView.m */,
+				042177C016327A5000AF7482 /* TumblrInfoView.xib */,
+			);
+			name = components;
+			sourceTree = "<group>";
+		};
+		042177CC163291C500AF7482 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				042177DD163295F300AF7482 /* Objects */,
+				042177D71632921600AF7482 /* YahooOpenHack2012.xcdatamodeld */,
+				042177DA1632925400AF7482 /* DatabaseHelper.h */,
+				042177DB1632925400AF7482 /* DatabaseHelper.m */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		042177DD163295F300AF7482 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				042178261632BD9900AF7482 /* UserInfo.h */,
+				042178271632BD9A00AF7482 /* UserInfo.m */,
+				042178231632BD9700AF7482 /* Post.h */,
+				042178241632BD9800AF7482 /* Post.m */,
+				042178201632BD9600AF7482 /* TumblrBlogInfo.h */,
+				042178211632BD9700AF7482 /* TumblrBlogInfo.m */,
+				042177FB163297AF00AF7482 /* TumblrBlogInfo+TumblrAPI.h */,
+				042177FC163297AF00AF7482 /* TumblrBlogInfo+TumblrAPI.m */,
+				042177FE163297CB00AF7482 /* UserInfo+TumblrAPI.h */,
+				042177FF163297CB00AF7482 /* UserInfo+TumblrAPI.m */,
+				042178291632BDC600AF7482 /* Post+TumblrAPI.h */,
+				0421782A1632BDC700AF7482 /* Post+TumblrAPI.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		0421780116329FF600AF7482 /* SystemPreference */ = {
+			isa = PBXGroup;
+			children = (
+				042178021632A01200AF7482 /* SystemPreference.h */,
+				042178031632A01200AF7482 /* SystemPreference.m */,
+			);
+			name = SystemPreference;
+			sourceTree = "<group>";
+		};
+		0421782C1632CA8E00AF7482 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				045153E61632DC9300C5650E /* CalendarModel.h */,
+				045153E71632DC9300C5650E /* CalendarModel.m */,
+				045153E81632DC9300C5650E /* CalendarCollectionViewCell.h */,
+				045153E91632DC9300C5650E /* CalendarCollectionViewCell.m */,
+				045153EA1632DC9300C5650E /* CalendarCollectionViewCell.xib */,
+				045153EB1632DC9300C5650E /* CalendarView.h */,
+				045153EC1632DC9300C5650E /* CalendarView.m */,
+				045153ED1632DC9300C5650E /* CalendarView.xib */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
+		045153FB1632FACE00C5650E /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				045153FC1632FB1000C5650E /* ShareViewController.h */,
+				045153FD1632FB1000C5650E /* ShareViewController.m */,
+			);
+			name = Share;
+			sourceTree = "<group>";
+		};
+		0451540E16330C5600C5650E /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				0451540F16330CAD00C5650E /* CameraHelper.h */,
+				0451541016330CAD00C5650E /* CameraHelper.m */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		04F4A18616334043007E0AB6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				04F4A18716334058007E0AB6 /* Challenges.plist */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		04F4A189163344C5007E0AB6 /* Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				04F4A18D1633473E007E0AB6 /* components */,
+				04F4A18A163344E5007E0AB6 /* ChallengePackageViewController.h */,
+				04F4A18B163344E5007E0AB6 /* ChallengePackageViewController.m */,
+				04F4A19416335190007E0AB6 /* ChallengeViewController.h */,
+				04F4A19516335190007E0AB6 /* ChallengeViewController.m */,
+				04F4A1A916335D24007E0AB6 /* InspirationViewController.h */,
+				04F4A1AA16335D24007E0AB6 /* InspirationViewController.m */,
+			);
+			name = Challenge;
+			sourceTree = "<group>";
+		};
+		04F4A18D1633473E007E0AB6 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				04F4A18E1633476C007E0AB6 /* ChallengePackageCell.h */,
+				04F4A18F1633476C007E0AB6 /* ChallengePackageCell.m */,
+				04F4A19116334781007E0AB6 /* ChallengePackageCell.xib */,
+			);
+			name = components;
+			sourceTree = "<group>";
+		};
+		04F4A19316334F2F007E0AB6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				04F4A1C4163375A0007E0AB6 /* DSC02193.jpeg */,
+				04F4A1C5163375A0007E0AB6 /* DSC02193@2x.jpeg */,
+				04F4A19716335311007E0AB6 /* Fun Experiment.jpg */,
+				04F4A19816335311007E0AB6 /* Fun Experiment@2x.jpg */,
+				04F4A19916335311007E0AB6 /* Nature Beauty.jpg */,
+				04F4A19A16335311007E0AB6 /* Nature Beauty@2x.jpg */,
+				04F4A19B16335311007E0AB6 /* People.jpg */,
+				04F4A19C16335311007E0AB6 /* People@2x.jpg */,
+				04F4A1AC1633701C007E0AB6 /* Attached frame.png */,
+				04F4A1AD1633701C007E0AB6 /* Attached frame@2x.png */,
+				04F4A1B01633717B007E0AB6 /* g10952.png */,
+				04F4A1B11633717B007E0AB6 /* g10952@2x.png */,
+				04F4A1B21633717B007E0AB6 /* g10962.png */,
+				04F4A1B31633717B007E0AB6 /* g10962@2x.png */,
+				04F4A1B41633717B007E0AB6 /* g10966.png */,
+				04F4A1B51633717B007E0AB6 /* g10966@2x.png */,
+				04F4A1BC163371CA007E0AB6 /* g10970.png */,
+				04F4A1BD163371CA007E0AB6 /* g10970@2x.png */,
+				04F4A1C01633720F007E0AB6 /* g10939.png */,
+				04F4A1C11633720F007E0AB6 /* g10939@2x.png */,
+				04F4A1CC16337896007E0AB6 /* mainCover.png */,
+				04F4A1CD16337896007E0AB6 /* mainCover@2x.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +550,34 @@
 				04217771163266A300AF7482 /* Default@2x.png in Resources */,
 				04217773163266A300AF7482 /* Default-568h@2x.png in Resources */,
 				04217776163266A300AF7482 /* MainStoryboard.storyboard in Resources */,
+				042177911632694200AF7482 /* GTMOAuthViewTouch.xib in Resources */,
+				042177C116327A5000AF7482 /* TumblrInfoView.xib in Resources */,
+				045153F31632DC9300C5650E /* CalendarCollectionViewCell.xib in Resources */,
+				045153F51632DC9300C5650E /* CalendarView.xib in Resources */,
+				04F4A18816334058007E0AB6 /* Challenges.plist in Resources */,
+				04F4A19216334781007E0AB6 /* ChallengePackageCell.xib in Resources */,
+				04F4A19D16335311007E0AB6 /* Fun Experiment.jpg in Resources */,
+				04F4A19E16335311007E0AB6 /* Fun Experiment@2x.jpg in Resources */,
+				04F4A19F16335311007E0AB6 /* Nature Beauty.jpg in Resources */,
+				04F4A1A016335311007E0AB6 /* Nature Beauty@2x.jpg in Resources */,
+				04F4A1A116335311007E0AB6 /* People.jpg in Resources */,
+				04F4A1A216335311007E0AB6 /* People@2x.jpg in Resources */,
+				04F4A1AE1633701C007E0AB6 /* Attached frame.png in Resources */,
+				04F4A1AF1633701C007E0AB6 /* Attached frame@2x.png in Resources */,
+				04F4A1B61633717B007E0AB6 /* g10952.png in Resources */,
+				04F4A1B71633717B007E0AB6 /* g10952@2x.png in Resources */,
+				04F4A1B81633717B007E0AB6 /* g10962.png in Resources */,
+				04F4A1B91633717B007E0AB6 /* g10962@2x.png in Resources */,
+				04F4A1BA1633717B007E0AB6 /* g10966.png in Resources */,
+				04F4A1BB1633717B007E0AB6 /* g10966@2x.png in Resources */,
+				04F4A1BE163371CA007E0AB6 /* g10970.png in Resources */,
+				04F4A1BF163371CA007E0AB6 /* g10970@2x.png in Resources */,
+				04F4A1C21633720F007E0AB6 /* g10939.png in Resources */,
+				04F4A1C31633720F007E0AB6 /* g10939@2x.png in Resources */,
+				04F4A1C6163375A0007E0AB6 /* DSC02193.jpeg in Resources */,
+				04F4A1C7163375A0007E0AB6 /* DSC02193@2x.jpeg in Resources */,
+				04F4A1CE16337897007E0AB6 /* mainCover.png in Resources */,
+				04F4A1CF16337897007E0AB6 /* mainCover@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +591,41 @@
 				04217769163266A300AF7482 /* main.m in Sources */,
 				0421776D163266A300AF7482 /* AppDelegate.m in Sources */,
 				04217779163266A300AF7482 /* ViewController.m in Sources */,
+				042177861632691F00AF7482 /* GTMHTTPFetcher.m in Sources */,
+				0421778B1632693700AF7482 /* GTMOAuthAuthentication.m in Sources */,
+				0421778C1632693700AF7482 /* GTMOAuthSignIn.m in Sources */,
+				042177901632694200AF7482 /* GTMOAuthViewControllerTouch.m in Sources */,
+				042177AC163269CA00AF7482 /* AFHTTPClient.m in Sources */,
+				042177AD163269CA00AF7482 /* AFHTTPRequestOperation.m in Sources */,
+				042177AE163269CA00AF7482 /* AFImageRequestOperation.m in Sources */,
+				042177AF163269CA00AF7482 /* AFJSONRequestOperation.m in Sources */,
+				042177B0163269CA00AF7482 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				042177B1163269CA00AF7482 /* AFPropertyListRequestOperation.m in Sources */,
+				042177B2163269CA00AF7482 /* AFURLConnectionOperation.m in Sources */,
+				042177B3163269CA00AF7482 /* AFXMLRequestOperation.m in Sources */,
+				042177B4163269CA00AF7482 /* UIImageView+AFNetworking.m in Sources */,
+				042177B816326A2600AF7482 /* TumblrHelper.m in Sources */,
+				042177BB163279A400AF7482 /* TumblrLoginViewController.m in Sources */,
+				042177BE16327A0400AF7482 /* TumblrInfoView.m in Sources */,
+				042177C416327FE600AF7482 /* TumblrHelper+API.m in Sources */,
+				042177D91632921600AF7482 /* YahooOpenHack2012.xcdatamodeld in Sources */,
+				042177DC1632925400AF7482 /* DatabaseHelper.m in Sources */,
+				042177FD163297AF00AF7482 /* TumblrBlogInfo+TumblrAPI.m in Sources */,
+				04217800163297CB00AF7482 /* UserInfo+TumblrAPI.m in Sources */,
+				042178041632A01200AF7482 /* SystemPreference.m in Sources */,
+				042178221632BD9700AF7482 /* TumblrBlogInfo.m in Sources */,
+				042178251632BD9800AF7482 /* Post.m in Sources */,
+				042178281632BD9B00AF7482 /* UserInfo.m in Sources */,
+				0421782B1632BDC800AF7482 /* Post+TumblrAPI.m in Sources */,
+				045153F11632DC9300C5650E /* CalendarModel.m in Sources */,
+				045153F21632DC9300C5650E /* CalendarCollectionViewCell.m in Sources */,
+				045153F41632DC9300C5650E /* CalendarView.m in Sources */,
+				045153FE1632FB1000C5650E /* ShareViewController.m in Sources */,
+				0451541116330CAD00C5650E /* CameraHelper.m in Sources */,
+				04F4A18C163344E5007E0AB6 /* ChallengePackageViewController.m in Sources */,
+				04F4A1901633476C007E0AB6 /* ChallengePackageCell.m in Sources */,
+				04F4A19616335191007E0AB6 /* ChallengeViewController.m in Sources */,
+				04F4A1AB16335D24007E0AB6 /* InspirationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +742,22 @@
 				0421777E163266A300AF7482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		042177D71632921600AF7482 /* YahooOpenHack2012.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				042177D81632921600AF7482 /* YahooOpenHack2012.xcdatamodel */,
+			);
+			currentVersion = 042177D81632921600AF7482 /* YahooOpenHack2012.xcdatamodel */;
+			path = YahooOpenHack2012.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0421774F163266A200AF7482 /* Project object */;
 }
